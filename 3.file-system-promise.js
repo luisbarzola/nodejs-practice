@@ -1,6 +1,5 @@
-const fs = require("node:fs/promises")
+const fs = require("node:fs/promises");
 
-fs.readFile("./archivo.txt", "utf-8")
-    .then(text => {
-        console.log(text) 
-    })
+fs.readFile("./archivo.txt", "utf-8").then((text) => {
+  console.log(text);
+});
