@@ -1,5 +1,5 @@
 const http = require('node:http')
-const { findEnablePort } = require('./6.free.port.js')
+const { findEnablePort } = require('./2.free.port.js')
 
 const server = http.createServer((_, res) => {
   console.log('request received')
