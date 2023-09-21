@@ -4,6 +4,8 @@
   "description": "core functionality test",
   "main": "index.js",
   "scripts": {
+    "dev:1": "nodemon 3.html.pokemon.js",
+    "dev:2": "nodemon 4.express.pokemon.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,10 +16,12 @@
   "author": "lr",
   "license": "ISC",
   "dependencies": {
+    "express": "4.18.2",
     "picocolors": "1.0.0"
   },
   "devDependencies": {
-    "standard": "^17.1.0"
+    "nodemon": "3.0.1",
+    "standard": "17.1.0"
   },
   "eslintConfig": {
     "extends": "standard"

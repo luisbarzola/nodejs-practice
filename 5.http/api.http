@@ -1,0 +1,14 @@
+GET http://localhost:3000/pokemons/pikachu
+
+###
+POST http://localhost:3000/pokemons
+Content-Type: application/json
+
+{
+  "ability": {
+    "name": "static",
+    "url": "https://pokeapi.co/api/v2/ability/9/"
+  },
+  "is_hidden": false,
+  "slot": 1
+}
