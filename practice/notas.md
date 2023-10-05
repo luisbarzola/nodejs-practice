@@ -1,3 +1,8 @@
+# commonjs
+const element = require('module')
+module.exports = {...}
+
+
 # módulo http/net  usa
 - server = createServer((req, res) => {})
   - req.url
@@ -30,6 +35,9 @@
   app.method('path', (req, res) => {})
   app.disable('x-powered-by')
   app.use(express.json())
+  para validar usamos zod
+    movieSchema.safeParse
+    movieSchema.partial().safeParse
 
 ## reglas
 - al usar app.use como middleware siempre al termina se tiene que ejecutar next() 
